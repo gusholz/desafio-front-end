@@ -1,8 +1,8 @@
 import "./App.css";
-import Home from "./pages/home/Home";
+import PaymentDetails from "./pages/paymentDetails/PaymentDetails";
 
 function App() {
-  return <Home />;
+  return <PaymentDetails />;
 }
 
 export default App;
