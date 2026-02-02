@@ -1,0 +1,14 @@
+.chevronButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.chevron {
+  transition: transform 0.2s ease;
+}
+
+.flipped {
+  transform: rotate(180deg);
+}
