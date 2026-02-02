@@ -1,0 +1,75 @@
+.firstFold {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 48px;
+}
+
+.content {
+  max-width: 560px;
+  z-index: 1;
+}
+
+.title {
+  font-family: "Poppins", system-ui, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.description {
+  font-family: "Inter";
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.meta {
+  display: block;
+  margin-top: 12px;
+  font-size: 12px;
+  font-family: "Inter";
+  font-size: 12px;
+}
+
+.media {
+  position: relative;
+  display: inline-block;
+}
+
+.mediaImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.decorativeCircle {
+  position: absolute;
+  top: -534px;
+  left: -77px;
+  z-index: 0;
+  width: 696px;
+  height: 696px;
+  border-radius: 50%;
+
+  background: #d4ffd1;
+  filter: blur(40px);
+  opacity: 0.6;
+
+  pointer-events: none;
+}
