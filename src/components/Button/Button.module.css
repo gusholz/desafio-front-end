@@ -6,6 +6,7 @@
   font-weight: 500;
   cursor: pointer;
   border: none;
+  flex: 1;
 }
 
 .primary {

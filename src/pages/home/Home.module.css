@@ -4,10 +4,26 @@
   align-items: center;
   gap: 48px;
 }
+@media (max-width: 768px) {
+  .firstFold {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
 
 .content {
   max-width: 560px;
   z-index: 1;
+}
+@media (max-width: 768px) {
+  .content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .actions {
+    justify-content: center;
+  }
 }
 
 .title {
@@ -52,8 +68,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 64px;
-  height: 64px;
+  width: clamp(40px, 10vw, 64px);
+  height: clamp(40px, 10vw, 64px);
   pointer-events: none;
   opacity: 0.9;
 }
