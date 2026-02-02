@@ -1,0 +1,25 @@
+.button {
+  padding: 12px 24px;
+  border-radius: 58px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.primary {
+  background-color: #2b7adf;
+  color: #fafafa;
+}
+
+.secondary {
+  background-color: transparent;
+  color: #2b7adf;
+  border: 1px solid #2b7adf;
+}
+
+.button:focus-visible {
+  outline: 1px solid #2b7adf;
+  outline-offset: 2px;
+}
