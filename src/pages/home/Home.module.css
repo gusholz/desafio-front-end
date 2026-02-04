@@ -1,4 +1,4 @@
-.firstFold {
+.home {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6,26 +6,10 @@
   padding-top: 4rem;
   gap: 48px;
 }
-@media (max-width: 768px) {
-  .firstFold {
-    flex-direction: column;
-    gap: 32px;
-  }
-}
 
 .content {
   max-width: 560px;
   z-index: 1;
-}
-@media (max-width: 768px) {
-  .content {
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .actions {
-    justify-content: center;
-  }
 }
 
 .title {
@@ -90,4 +74,19 @@
   opacity: 0.6;
 
   pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .firstFold {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .actions {
+    justify-content: center;
+  }
 }

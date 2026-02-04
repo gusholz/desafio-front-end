@@ -2,10 +2,13 @@ import Button from "../../components/Button/Button";
 import mockImage from "../../assets/images/mockImage.png";
 import playIcon from "../../assets/icons/play.svg";
 import styles from "./Home.module.css";
+import { useNavigate } from "react-router-dom";
 
-export default function FirstFold() {
+export default function Home() {
+  const navigate = useNavigate();
+
   return (
-    <section className={styles.firstFold}>
+    <section className={styles.home}>
       <div className={styles.decorativeCircle} aria-hidden="true" />
 
       <div className={styles.content}>
@@ -17,7 +20,7 @@ export default function FirstFold() {
         </p>
 
         <div className={styles.actions}>
-          <Button text="Planos e Preços" onClick={() => {}} />
+          <Button text="Planos e Preços" onClick={() => navigate("/payment")} />
           <Button
             text="Falar com Especialista"
             onClick={() => {}}
