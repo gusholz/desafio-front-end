@@ -16,14 +16,15 @@
 }
 
 .title {
-  font-size: 22px;
+  font-size: var(--font-size-lg);
   font-family: "Poppins";
   font-weight: 500;
   color: var(--color-neutral-n900);
+  padding-top: 4.6rem;
 }
 
 .subtitle {
-  font-size: 16px;
+  font-size: var(--font-size-md);
   font-family: "Inter";
   font-weight: 500;
   color: var(--color-neutral-n900);

@@ -30,14 +30,14 @@
 
 .title {
   font-family: "Poppins", system-ui, sans-serif;
-  font-size: 36px;
+  font-size: var(--font-size-xxl);
   font-weight: 500;
   color: var(--color-neutral-n900);
 }
 
 .description {
   font-family: "Inter";
-  font-size: 16px;
+  font-size: var(--font-size-md);
   margin-top: 16px;
   color: var(--color-neutral-n600);
 }
@@ -51,9 +51,8 @@
 .meta {
   display: block;
   margin-top: 12px;
-  font-size: 12px;
+  font-size: var(--font-size-sm);
   font-family: "Inter";
-  font-size: 12px;
 }
 
 .media {

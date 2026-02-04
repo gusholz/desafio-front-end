@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets//fonts/Poppins-Medium.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter_18pt-Medium.woff2") format("woff2");
+  font-display: swap;
+}

@@ -8,4 +8,10 @@
   --color-primary-p500: #2bbe41;
   --color-primary-p50: #83e87c;
   --color-tertiary-t700: #2b79df;
+
+  /* FONT SIZES */
+  --font-size-xxl: 36px;
+  --font-size-lg: 22px;
+  --font-size-md: 16px;
+  --font-size-sm: 12px;
 }

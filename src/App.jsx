@@ -1,5 +1,4 @@
-import "./App.css";
-import "./tokens.css";
+import "./styles/index.css";
 import PaymentDetails from "./pages/paymentDetails/PaymentDetails";
 
 function App() {
