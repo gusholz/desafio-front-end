@@ -6,17 +6,15 @@ Este projeto foi desenvolvido como parte de um teste técnico para avaliação d
 - Responsividade
 - Clareza de decisões técnicas
 
----
-
-## Como rodar o projeto
-
-### Pré-requisitos
-- Node.js recomendado: >= 18.x
+### Como rodar o projeto
+## Pré-requisitos
+- Node.js recomendado: 20.19+ ou 22.12+
 - npm ou yarn
 
 ### Passos para execução
 
 ```bash
+git clone git@github.com:gusholz/desafio-front-end.git
 npm install
 npm run dev
 ```
