@@ -1,18 +1,59 @@
-# React + Vite
+# Frontend Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte de um teste técnico para avaliação de habilidades em frontend, com foco em:
+- Componentização
+- Organização de estilos
+- Responsividade
+- Clareza de decisões técnicas
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como rodar o projeto
 
-## React Compiler
+### Pré-requisitos
+- Node.js recomendado: >= 18.x
+- npm ou yarn
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Passos para execução
 
-Note: This will impact Vite dev & build performances.
+```bash
+npm install
+npm run dev
+```
+O projeto estárá disponível em http://localhost:5173
 
-## Expanding the ESLint configuration
+## Decisões Técnicas
+# Frameworks
+React + Vite
+O Vite foi escolhido pela rapidez no setup, hot reload eficiente e simplicidade para projetos frontend.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Estilização
+CSS Modules
+A escolha por CSS Modules garante escopo local de estilos, evita conflitos globais e mantém boa legibilidade e manutenção do código sem adicionar dependências extras.
+
+# Organização de estilos:
+Tokens globais definidos via CSS Variables (:root)
+Separação clara entre estilos globais e estilos por componente
+Design system (tokens)
+Foi implementado um pequeno design system baseado em variáveis CSS, incluindo:
+Cores (neutras, primárias e auxiliares)
+Tipografia (tamanhos de fonte padronizados)
+
+# DX
+Com a finalidade de melhorar a experiência do desenvolvedor, foi configurado um ambiente com ESLint + Prettier com formatação automática, definida nos arquivos:
+```bash
+.editorconfig
+.eslintconfig
+```
+
+# Navegação
+React Router DOM foi utilizado para permitir uma navegação simples entre as duas telas desenvolvidas
+home -> http://localhost:5173/
+paymentDetails -> http://localhost:5173/payment
+
+
+
+
+
+
+
