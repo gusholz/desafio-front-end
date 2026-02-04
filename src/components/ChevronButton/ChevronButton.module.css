@@ -5,10 +5,11 @@
   cursor: pointer;
 }
 
-.chevron {
-  transition: transform 0.2s ease;
-}
-
 .flipped {
   transform: rotate(180deg);
+}
+
+.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
 }
