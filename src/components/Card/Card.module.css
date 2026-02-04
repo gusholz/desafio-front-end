@@ -28,3 +28,9 @@
   font-weight: 500;
   color: var(--color-neutral-n900);
 }
+
+@media (max-width: 768px) {
+  .card {
+    width: 236px;
+  }
+}
