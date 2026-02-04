@@ -1,0 +1,11 @@
+:root {
+  /* COLORS */
+  --color-neutral-n900: #1e2124;
+  --color-neutral-n600: #41484e;
+  --color-neutral-n200: #c6c8cb;
+  --color-neutral-n100: #f6f6f6;
+  --color-neutral-n000: #ffffff;
+  --color-primary-p500: #2bbe41;
+  --color-primary-p50: #83e87c;
+  --color-tertiary-t700: #2b79df;
+}

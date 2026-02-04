@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  background-color: #fafafa;
+  background-color: var(--color-neutral-n100);
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

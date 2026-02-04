@@ -10,17 +10,17 @@
 }
 
 .primary {
-  background-color: #2b7adf;
-  color: #fafafa;
+  background-color: var(--color-tertiary-t700);
+  color: var(--color-neutral-n000);
 }
 
 .secondary {
   background-color: transparent;
-  color: #2b7adf;
-  border: 1px solid #2b7adf;
+  color: var(--color-tertiary-t700);
+  border: 1px solid var(--color-tertiary-t700);
 }
 
 .button:focus-visible {
-  outline: 1px solid #2b7adf;
+  outline: 1px solid var(--color-tertiary-t700);
   outline-offset: 2px;
 }

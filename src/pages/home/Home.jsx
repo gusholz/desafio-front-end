@@ -1,6 +1,6 @@
 import Button from "../../components/Button/Button";
 import mockImage from "../../assets/images/mockImage.png";
-import playIcon from "../../assets/images/play.svg";
+import playIcon from "../../assets/icons/play.svg";
 import styles from "./Home.module.css";
 
 export default function FirstFold() {

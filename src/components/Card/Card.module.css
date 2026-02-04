@@ -1,5 +1,5 @@
 .card {
-  background-color: white;
+  background-color: var(--color-neutral-n000);
   padding: 2rem;
   border-radius: 30px;
   width: 276px;
@@ -19,11 +19,12 @@
   font-size: 22px;
   font-family: "Poppins";
   font-weight: 500;
-  color: #41484e;
+  color: var(--color-neutral-n900);
 }
 
 .subtitle {
   font-size: 16px;
   font-family: "Inter";
   font-weight: 500;
+  color: var(--color-neutral-n900);
 }
