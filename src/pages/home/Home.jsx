@@ -38,12 +38,9 @@ export default function Home() {
           className={styles.mediaImage}
         />
 
-        <img
-          src={playIcon}
-          alt=""
-          aria-hidden="true"
-          className={styles.playButton}
-        />
+        <button className={styles.playButton}>
+          <img src={playIcon} alt="Play" />
+        </button>
       </div>
     </section>
   );

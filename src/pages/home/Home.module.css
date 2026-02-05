@@ -33,10 +33,10 @@
 }
 
 .meta {
-  display: block;
   margin-top: 12px;
   font-size: var(--font-size-sm);
   font-family: "Inter";
+  color: var(--color-neutral-n900);
 }
 
 .media {
@@ -51,19 +51,26 @@
 }
 
 .playButton {
+  background: none;
+  border: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: clamp(40px, 10vw, 64px);
-  height: clamp(40px, 10vw, 64px);
-  pointer-events: none;
-  opacity: 0.9;
+  opacity: 0.8;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.playButton:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .decorativeCircle {
   position: absolute;
-  top: -534px;
+  top: -600px;
   left: -77px;
   z-index: 0;
   width: 696px;
@@ -77,13 +84,17 @@
 }
 
 @media (max-width: 768px) {
-  .firstFold {
+  .home {
     flex-direction: column;
     gap: 32px;
   }
   .content {
     max-width: 100%;
     text-align: center;
+  }
+
+  .decorativeCircle {
+    width: 400px;
   }
 
   .actions {
